@@ -11,6 +11,9 @@
 # production
 /build
 
+# ignore files of code 
+Apikey.tsx
+
 # misc
 .DS_Store
 .env.local
