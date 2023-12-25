@@ -10,7 +10,7 @@ function Index() {
   useEffect(() => {
     if (num < 1) {
       window.addEventListener("offline", () =>
-        notificationFunction("please turn on your internet", "danger")
+        notificationFunction("offline", "danger")
       );
       window.addEventListener("online", () =>
         notificationFunction("you are online", "success")

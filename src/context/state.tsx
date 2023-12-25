@@ -48,7 +48,7 @@ const ApiContext = (props: any) => {
     if (response) {
       setWeatherReport(response.data);
     } else if (!navigator.onLine) {
-      notificationFunction("please check your connection", "danger");
+      notificationFunction("please check your internet connection....", "danger");
     }
   };
 
